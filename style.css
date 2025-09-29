@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eaeaea;
+}
+
+.app {
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #075E54;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.header-icons span {
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.tabs {
+  background-color: #075E54;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-bottom: 1px solid #064e45;
+}
+
+.tab {
+  color: white;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.tab.active {
+  font-weight: bold;
+  opacity: 1;
+  border-bottom: 3px solid white;
+  padding-bottom: 4px;
+}
+
+.chat-list {
+  padding: 10px;
+}
+
+.chat {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-info {
+  flex: 1;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-weight: bold;
+  color: #000;
+}
+
+.time {
+  color: gray;
+  font-size: 12px;
+}
+
+.message {
+  font-size: 13px;
+  color: #555;
+}
